@@ -1,6 +1,45 @@
-# DFreds Compendiums 
+# DFreds Compendiums
 
 To use this module, simply navigate to the Add-on Modules tab, click Install Module, and paste in the link to the module.json (https://raw.githubusercontent.com/DFreds/dfreds-compendiums/master/module.json)
+
+## Homebrews Used
+
+This is the curated list of homebrews I use.
+
+### Feats
+
+* DnD Beyond; Expanded Racial Feats
+* KibblesTasty; Feats for Faiths
+
+### Items
+
+* Custom: Absorbing Tatoo, all animal masks, Silver Studded Leather Gauntlets, The Starlight
+* Aofhaocv; Common Magic Items
+* Foxfire94; Armour, Items, and Weapons Galore
+* Griffin Macaulay; The Griffon's Saddlebag, Book 1
+* Kobold Press; Creature Codex
+* Kobold Press; Tome of Beasts
+* Kobold Press; Tome of Beasts 2
+* Nord Games; Ultimate Bestiary The Dreaded Accursed
+* Nord Games; Ultimate NPCs Skulduggery
+* ShamusAran; Satchel of Unmet Needs
+
+### Monsters
+
+* Custom: Apprentice Wizard (Dwarf), Masked Killer
+* badooga; Elder Evils - removed those without tokens/images
+* badooga; Warlord Collection - removed those without tokens/images
+* Kelsey Dionne; The Secret of Skyhorn Lighthouse - updated images of tokens
+* Kobold Press; Creature Codex
+* Kobold Press; Tome of Beasts
+* Kobold Press; Tome of Beasts 2
+* Nord Games; Ultimate Bestiary The Dreaded Accursed
+* Nord Games; Ultimate Bestiary Revenge of the Horde
+* Tobias Beis; Critter Compendium
+
+### Spells
+
+* Craios125; Evolving Cantrips - updated images to use those from plutonium
 
 ## Initial Setup
 
