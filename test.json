@@ -1,0 +1,591 @@
+{
+  "_id": "03P50TyBRwpFcOFD",
+  "name": "Kruthik Hive Lord",
+  "permission": { "default": 0, "YV9YdiacBtGwdeXO": 3 },
+  "type": "npc",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 19,
+        "proficient": 0,
+        "mod": 4,
+        "save": 4,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0
+      },
+      "dex": {
+        "value": 16,
+        "proficient": 0,
+        "mod": 3,
+        "save": 3,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0
+      },
+      "con": {
+        "value": 17,
+        "proficient": 0,
+        "mod": 3,
+        "save": 3,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0,
+        "mod": 0,
+        "save": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0
+      },
+      "wis": {
+        "value": 14,
+        "proficient": 0,
+        "mod": 2,
+        "save": 2,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0
+      },
+      "cha": {
+        "value": 10,
+        "proficient": 0,
+        "mod": 0,
+        "save": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0
+      }
+    },
+    "attributes": {
+      "ac": { "value": 20, "min": 10 },
+      "hp": {
+        "value": 102,
+        "min": 0,
+        "max": 102,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "12d10 + 36"
+      },
+      "init": { "value": 0, "bonus": 0, "mod": 3, "prof": 0, "total": 3 },
+      "speed": { "value": 40, "special": "burrow 20 ft., climb 40 ft." },
+      "spellcasting": "int",
+      "prof": 3,
+      "spelldc": 11
+    },
+    "details": {
+      "alignment": "unaligned",
+      "biography": { "value": "", "public": "" },
+      "race": "",
+      "type": "monstrosity",
+      "environment": "desert, mountain, underdark",
+      "cr": 5,
+      "spellLevel": 5,
+      "xp": { "value": 1800, "xp": { "value": 1800 } },
+      "source": "Mordenkainen’s Tome of Foes, pg. 212"
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonus": 0,
+        "mod": 3,
+        "passive": 13,
+        "prof": 0,
+        "total": 3
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": 2,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonus": 0,
+        "mod": 4,
+        "passive": 14,
+        "prof": 0,
+        "total": 4
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonus": 0,
+        "mod": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": 2,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonus": 0,
+        "mod": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": 2,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": 2,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonus": 0,
+        "mod": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonus": 0,
+        "mod": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 0,
+        "passive": 10,
+        "prof": 0,
+        "total": 0
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonus": 0,
+        "mod": 3,
+        "passive": 13,
+        "prof": 0,
+        "total": 3
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonus": 0,
+        "mod": 3,
+        "passive": 13,
+        "prof": 0,
+        "total": 3
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": 2,
+        "passive": 12,
+        "prof": 0,
+        "total": 2
+      }
+    },
+    "traits": {
+      "size": "lg",
+      "senses": "Darkvision 60 ft.,  Tremorsense 60 ft.",
+      "languages": { "value": [], "custom": "Kruthik" },
+      "di": { "value": [], "custom": "" },
+      "dr": { "value": [], "custom": "" },
+      "dv": { "value": [], "custom": "" },
+      "ci": { "value": [], "custom": "" }
+    },
+    "currency": { "pp": 0, "gp": 0, "ep": 0, "sp": 0, "cp": 0 },
+    "spells": {
+      "spell1": { "value": 0, "max": 4, "override": null },
+      "spell2": { "value": 0, "max": 3, "override": null },
+      "spell3": { "value": 0, "max": 2, "override": null },
+      "spell4": { "value": 0, "max": 0, "override": null },
+      "spell5": { "value": 0, "max": 0, "override": null },
+      "spell6": { "value": 0, "max": 0, "override": null },
+      "spell7": { "value": 0, "max": 0, "override": null },
+      "spell8": { "value": 0, "max": 0, "override": null },
+      "spell9": { "value": 0, "max": 0, "override": null },
+      "pact": { "value": 0, "max": 0, "override": null, "level": 0 },
+      "spell0": { "value": 0, "max": 0 }
+    },
+    "bonuses": {
+      "mwak": { "attack": "", "damage": "" },
+      "rwak": { "attack": "", "damage": "" },
+      "msak": { "attack": "", "damage": "" },
+      "rsak": { "attack": "", "damage": "" },
+      "abilities": { "check": "", "save": "", "skill": "" },
+      "spell": { "dc": "" }
+    },
+    "resources": {
+      "legact": { "value": 0, "max": 0 },
+      "legres": { "value": 0, "max": 0 },
+      "lair": { "value": false, "initiative": 0 }
+    }
+  },
+  "sort": 100001,
+  "flags": {
+    "vtta": {
+      "dndbeyond": {
+        "url": "https://www.dndbeyond.com/monsters/kruthik-hive-lord",
+        "spells": [],
+        "img": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/281/300/1000/1000/636603671570594351.png"
+      }
+    }
+  },
+  "img": "modules/beyond-20-compendiums/images/beyond-20/npc-Kruthik-Hive-Lord.png",
+  "token": {
+    "flags": {},
+    "name": "Kruthik Hive Lord",
+    "displayName": 0,
+    "img": "modules/beyond-20-compendiums/images/beyond-20/npc-Kruthik-Hive-Lord.png",
+    "tint": null,
+    "width": 2,
+    "height": 2,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 360,
+    "lightAngle": 360,
+    "lightAlpha": 1,
+    "actorId": "03P50TyBRwpFcOFD",
+    "actorLink": false,
+    "actorData": {},
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {},
+    "bar2": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "2Lo3KZfK1CAqVpzu",
+      "flags": {},
+      "name": "Keen Smell",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "data": {
+        "description": {
+          "value": "The kruthik has advantage on Wisdom (<a class=\"tooltip-hover skill-tooltip\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Perception\" data-tooltip-href=\"https://www.dndbeyond.com/www.dndbeyond.com/skills/14-tooltip?disable-webm=1&amp;disable-webm=1\">Perception</a>) checks that rely on smell.",
+          "chat": "The kruthik has advantage on Wisdom (<a class=\"tooltip-hover skill-tooltip\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Perception\" data-tooltip-href=\"https://www.dndbeyond.com/www.dndbeyond.com/skills/14-tooltip?disable-webm=1&amp;disable-webm=1\">Perception</a>) checks that rely on smell.",
+          "unidentified": "The kruthik has advantage on Wisdom (<a class=\"tooltip-hover skill-tooltip\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Perception\" data-tooltip-href=\"https://www.dndbeyond.com/www.dndbeyond.com/skills/14-tooltip?disable-webm=1&amp;disable-webm=1\">Perception</a>) checks that rely on smell."
+        },
+        "source": "",
+        "activation": { "type": "action", "cost": 1, "condition": "" },
+        "duration": { "value": null, "units": "" },
+        "target": { "value": null, "units": "", "type": "" },
+        "range": { "value": null, "long": null, "units": "" },
+        "uses": { "value": 0, "max": 0, "per": "" },
+        "consume": { "type": "", "target": "", "amount": null },
+        "ability": null,
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": { "parts": [], "versatile": "" },
+        "formula": "",
+        "save": { "ability": null, "dc": null, "scaling": "flat" },
+        "requirements": "",
+        "recharge": { "value": null, "charged": false }
+      }
+    },
+    {
+      "_id": "h3FfN6b4eZrnU9cT",
+      "flags": {},
+      "name": "Pack Tactics",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "data": {
+        "description": {
+          "value": "The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't <a class=\"tooltip-hover condition-tooltip\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Incapacitated\" data-tooltip-href=\"https://www.dndbeyond.com/www.dndbeyond.com/conditions/7-tooltip?disable-webm=1&amp;disable-webm=1\">incapacitated</a>.",
+          "chat": "The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't <a class=\"tooltip-hover condition-tooltip\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Incapacitated\" data-tooltip-href=\"https://www.dndbeyond.com/www.dndbeyond.com/conditions/7-tooltip?disable-webm=1&amp;disable-webm=1\">incapacitated</a>.",
+          "unidentified": "The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't <a class=\"tooltip-hover condition-tooltip\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Incapacitated\" data-tooltip-href=\"https://www.dndbeyond.com/www.dndbeyond.com/conditions/7-tooltip?disable-webm=1&amp;disable-webm=1\">incapacitated</a>."
+        },
+        "source": "",
+        "activation": { "type": "action", "cost": 1, "condition": "" },
+        "duration": { "value": null, "units": "" },
+        "target": { "value": null, "units": "", "type": "" },
+        "range": { "value": null, "long": null, "units": "" },
+        "uses": { "value": 0, "max": 0, "per": "" },
+        "consume": { "type": "", "target": "", "amount": null },
+        "ability": null,
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": { "parts": [], "versatile": "" },
+        "formula": "",
+        "save": { "ability": null, "dc": null, "scaling": "flat" },
+        "requirements": "",
+        "recharge": { "value": null, "charged": false }
+      }
+    },
+    {
+      "_id": "lx3ehck7FiupeZYU",
+      "flags": {},
+      "name": "Tunneler",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "data": {
+        "description": {
+          "value": "The kruthik can burrow through solid rock at half its burrowing speed and leaves a 10-foot-diameter tunnel in its wake.",
+          "chat": "The kruthik can burrow through solid rock at half its burrowing speed and leaves a 10-foot-diameter tunnel in its wake.",
+          "unidentified": "The kruthik can burrow through solid rock at half its burrowing speed and leaves a 10-foot-diameter tunnel in its wake."
+        },
+        "source": "",
+        "activation": { "type": "action", "cost": 1, "condition": "" },
+        "duration": { "value": null, "units": "" },
+        "target": { "value": null, "units": "", "type": "" },
+        "range": { "value": null, "long": null, "units": "" },
+        "uses": { "value": 0, "max": 0, "per": "" },
+        "consume": { "type": "", "target": "", "amount": null },
+        "ability": null,
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": { "parts": [], "versatile": "" },
+        "formula": "",
+        "save": { "ability": null, "dc": null, "scaling": "flat" },
+        "requirements": "",
+        "recharge": { "value": null, "charged": false }
+      }
+    },
+    {
+      "_id": "2ZQUCLBxyIx9TyeD",
+      "flags": {},
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "data": {
+        "description": {
+          "value": "The kruthik makes two stab attacks or two spike attacks.",
+          "chat": "The kruthik makes two stab attacks or two spike attacks.",
+          "unidentified": "The kruthik makes two stab attacks or two spike attacks."
+        },
+        "source": "",
+        "activation": { "type": "action", "cost": 1, "condition": "" },
+        "duration": { "value": null, "units": "" },
+        "target": { "value": null, "units": "", "type": "" },
+        "range": { "value": null, "long": null, "units": "" },
+        "uses": { "value": 0, "max": 0, "per": "" },
+        "consume": { "type": "", "target": "", "amount": null },
+        "ability": null,
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": { "parts": [], "versatile": "" },
+        "formula": "",
+        "save": { "ability": null, "dc": null, "scaling": "flat" },
+        "requirements": "",
+        "recharge": { "value": null, "charged": false }
+      }
+    },
+    {
+      "_id": "PulASxeqBWoGqlwW",
+      "flags": {},
+      "name": "Stab",
+      "type": "weapon",
+      "img": "icons/svg/mystery-man.svg",
+      "data": {
+        "description": {
+          "value": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 9 (1d10 + 4) piercing damage.",
+          "chat": "",
+          "unidentified": "Stab"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": { "type": "action", "cost": 1, "condition": "" },
+        "duration": { "value": null, "units": "" },
+        "target": { "value": null, "units": "", "type": "" },
+        "range": { "value": "10 ", "long": 5, "units": "ft." },
+        "uses": { "value": 0, "max": 0, "per": null },
+        "consume": { "type": "", "target": null, "amount": null },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": { "parts": [["1d10 + 4", "piercing"]], "versatile": "" },
+        "formula": "",
+        "save": { "ability": null, "dc": null, "scaling": "flat" },
+        "weaponType": "simpleM",
+        "properties": {
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "hvy": false,
+          "lgt": false,
+          "rch": true,
+          "rel": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true,
+        "recharge": { "value": null, "charged": true }
+      }
+    },
+    {
+      "_id": "W7FKF772TVF1Bo9d",
+      "flags": {},
+      "name": "Spike",
+      "type": "weapon",
+      "img": "icons/svg/mystery-man.svg",
+      "data": {
+        "description": {
+          "value": "Ranged Weapon Attack: +6 to hit, range 30/120 ft., one target. Hit: 7 (1d6 + 4) piercing damage.",
+          "chat": "",
+          "unidentified": "Spike"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": { "type": "action", "cost": 1, "condition": "" },
+        "duration": { "value": null, "units": "" },
+        "target": { "value": null, "units": "", "type": "" },
+        "range": { "value": "30/120", "long": 5, "units": "ft." },
+        "uses": { "value": 0, "max": 0, "per": null },
+        "consume": { "type": "", "target": null, "amount": null },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": { "parts": [["1d6 + 4", "piercing"]], "versatile": "" },
+        "formula": "",
+        "save": { "ability": null, "dc": null, "scaling": "flat" },
+        "weaponType": "simpleR",
+        "properties": {
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "hvy": false,
+          "lgt": false,
+          "rch": false,
+          "rel": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true,
+        "recharge": { "value": null, "charged": true }
+      }
+    },
+    {
+      "_id": "NYtHjCc2ZXxqO6Az",
+      "flags": {},
+      "name": "Acid Spray",
+      "type": "feat",
+      "img": "icons/svg/mystery-man.svg",
+      "data": {
+        "description": {
+          "value": "The kruthik sprays acid in a 15-foot cone. Each creature in that area must make a DC 14 Dexterity saving throw, taking 22 (4d10) acid damage on a failed save, or half as much damage on a successful one.",
+          "chat": "The kruthik sprays acid in a 15-foot cone. Each creature in that area must make a DC 14 Dexterity saving throw, taking 22 (4d10) acid damage on a failed save, or half as much damage on a successful one.",
+          "unidentified": "The kruthik sprays acid in a 15-foot cone. Each creature in that area must make a DC 14 Dexterity saving throw, taking 22 (4d10) acid damage on a failed save, or half as much damage on a successful one."
+        },
+        "source": "",
+        "activation": { "type": "action", "cost": 1, "condition": "" },
+        "duration": { "value": null, "units": "" },
+        "target": { "value": null, "units": "", "type": "" },
+        "range": { "value": null, "long": null, "units": "" },
+        "uses": { "value": 0, "max": 0, "per": "" },
+        "consume": { "type": "", "target": "", "amount": null },
+        "ability": null,
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": { "parts": [["4d10", "acid"]], "versatile": "" },
+        "formula": "2d10",
+        "save": { "ability": "dex", "dc": 14, "scaling": "flat" },
+        "requirements": "",
+        "recharge": { "value": 5, "charged": true }
+      }
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "name": "dfreds-compendiums",
+  "title": "DFreds Compendiums",
+  "description": "Sharing compendiums across worlds",
+  "author": "Derek Fredrickson",
+  "version": "0.0.1",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "0.7.9",
+  "packs": [
+    {
+      "name": "dfreds-items",
+      "label": "DFreds Items",
+      "path": "packs/dfreds-items.db",
+      "entity": "Item",
+      "module": "dfreds-compendiums"
+    },
+    {
+      "name": "dfreds-items-homebrew",
+      "label": "DFreds Items (Homebrew)",
+      "path": "packs/dfreds-items-homebrew.db",
+      "entity": "Item",
+      "module": "dfreds-compendiums"
+    },
+    {
+      "name": "dfreds-monsters",
+      "label": "DFreds Monsters",
+      "path": "packs/dfreds-monsters.db",
+      "entity": "Actor",
+      "module": "dfreds-compendiums"
+    },
+    {
+      "name": "dfreds-players",
+      "label": "DFreds Players",
+      "path": "packs/dfreds-players.db",
+      "entity": "Actor",
+      "module": "dfreds-compendiums"
+    },
+    {
+      "name": "dfreds-scenes",
+      "label": "DFreds Scenes",
+      "path": "packs/dfreds-scenes.db",
+      "entity": "Scene",
+      "module": "dfreds-compendiums"
+    },
+    {
+      "name": "dfreds-spells-homebrew",
+      "label": "DFreds Spells (Homebrew)",
+      "path": "packs/dfreds-spells-homebrew.db",
+      "entity": "Item",
+      "module": "dfreds-compendiums"
+    },
+    {
+      "name": "dfreds-spells",
+      "label": "DFreds Spells",
+      "path": "packs/dfreds-spells.db",
+      "entity": "Item",
+      "module": "dfreds-compendiums"
+    },
+    {
+      "name": "dfreds-npcs",
+      "label": "DFreds NPCs",
+      "path": "packs/dfreds-npcs.db",
+      "entity": "Actor",
+      "module": "dfreds-compendiums"
+    },
+    {
+      "name": "dfreds-monsters-homebrew",
+      "label": "DFreds Monsters (Homebrew)",
+      "path": "packs/dfreds-monsters-homebrew.db",
+      "entity": "Actor",
+      "module": "dfreds-compendiums"
+    },
+    {
+      "name": "dfreds-vehicles",
+      "label": "DFreds Vehicles",
+      "path": "packs/dfreds-vehicles.db",
+      "entity": "Actor",
+      "module": "dfreds-compendiums"
+    },
+    {
+      "name": "dfreds-classes",
+      "label": "DFreds Classes",
+      "path": "packs/dfreds-classes.db",
+      "entity": "Item",
+      "module": "dfreds-compendiums"
+    },
+    {
+      "name": "dfreds-class-features",
+      "label": "DFreds Class Features",
+      "path": "packs/dfreds-class-features.db",
+      "entity": "Item",
+      "module": "dfreds-compendiums"
+    },
+    {
+      "name": "dfreds-backgrounds",
+      "label": "DFreds Backgrounds",
+      "path": "packs/dfreds-backgrounds.db",
+      "entity": "Item",
+      "module": "dfreds-compendiums"
+    },
+    {
+      "name": "dfreds-background-features",
+      "label": "DFreds Background Features",
+      "path": "packs/dfreds-background-features.db",
+      "entity": "Item",
+      "module": "dfreds-compendiums"
+    },
+    {
+      "name": "dfreds-racial-traits",
+      "label": "DFreds Racial Traits",
+      "path": "packs/dfreds-racial-traits.db",
+      "entity": "Item",
+      "module": "dfreds-compendiums"
+    },
+    {
+      "name": "dfreds-races",
+      "label": "DFreds Races",
+      "path": "packs/dfreds-races.db",
+      "entity": "Item",
+      "module": "dfreds-compendiums"
+    },
+    {
+      "name": "dfreds-other-features",
+      "label": "DFreds Other Features",
+      "path": "packs/dfreds-other-features.db",
+      "entity": "Item",
+      "module": "dfreds-compendiums"
+    },
+    {
+      "name": "dfreds-optional-and-variant-rules",
+      "label": "DFreds Optional and Variant Rules",
+      "path": "packs/dfreds-optional-and-variant-rules.db",
+      "entity": "JournalEntry",
+      "module": "dfreds-compendiums"
+    },
+    {
+      "name": "dfreds-feats-homebrew",
+      "label": "DFreds Feats (Homebrew)",
+      "path": "packs/dfreds-feats-homebrew.db",
+      "entity": "Item",
+      "module": "dfreds-compendiums"
+    },
+    {
+      "name": "dfreds-feats",
+      "label": "DFreds Feats",
+      "path": "packs/dfreds-feats.db",
+      "entity": "Item",
+      "module": "dfreds-compendiums"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/DFreds/dfreds-compendiums/master/module.json",
+  "url": "https://github.com/DFreds/dfreds-compendiums",
+  "download": "https://github.com/DFreds/dfreds-compendiums/archive/0.0.1.zip"
+}
