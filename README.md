@@ -20,6 +20,7 @@ To use this module, simply navigate to the Add-on Modules tab, click Install Mod
   * Add Page Numbers to Source: Enable
   * Duplicate Handling Mode: Update Existing
 * Import (Creatures)
+  * Enable Vision: Disable
   * Token Bar Display Mode: Owner Hover
 * Import (Vehicles)
   * Token Bar Display Mode: Owner Hover
