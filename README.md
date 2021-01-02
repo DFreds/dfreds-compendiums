@@ -34,18 +34,16 @@ To use this module, simply navigate to the Add-on Modules tab, click Install Mod
 
 ## Adding Items to the Module
 
-1. Start up your beyond-20-compendium-generator world and log in with the initial Gamemaster
-1. In Chrome, go to <http://localhost:30000/game> and log in with the other GM you created
-1. Connect to the game using the plugin by clicking the icon on the top right of Chrome, and the pressing Connect. This must be done from the tab that has Foundry open.
-1. You can now open a spell or monster in DND Beyond and use the buttons for importing it. If Foundry VTT and Compendium are green, it already exists in the module. Otherwise, you can click Import to Foundry VTT to import it.
+1. Start up your generator world and log in with the initial Gamemaster
+1. Utilize plutonium to import items into the compendium. For more information, see their site.
 
 ### Notes on Spells
 
-If you add a new spell, it will likely not have an icon. We're using the generic icon from DND Beyond. You can utilize the `default-spell-icon-script.js` with node to generate a new beyond-spells.db file. Ensure that Node is installed on your command line, and do the following steps:
+If you add a new spell, it will likely not have an icon. We're using the generic icon from DND Beyond. You can utilize the `default-spell-icon-script.js` with node to generate a new dfreds-spells.db and dfreds-spells-homebrew file. Ensure that Node is installed on your command line, and do the following steps:
 
 1. Open terminal and navigate to this compendium's folder.
 1. Run `node default-spell-icon-script.js`
-1. Copy the new `beyond-spells.db` to the packs folder and overwrite the file.
+1. Copy the new `dfreds-spells.db` and `dfreds-spells-homebrew.db` to the packs folder and overwrite the file.
 
 ## Using the Tokenizer
 
