@@ -1,7 +1,6 @@
 /*
-This file reads in all the lines of beyond-spells.db and changes the default spell icon from mystery man to the ones provided here.
-It then outputs these changes to a beyond-spells.db file in the top level. Manually copying and replacing this file
-over the old beyond-spells.db is necessary.
+This file reads in all the lines of dfreds-spells.db and changes the default spell icon from the unfurled scroll to the ones provided here.
+It then outputs these changes to the specified file in the top level. Manually copying and replacing this file over the old file is necessary.
 
 NOTE: This means that this needs to be rerun whenever a new spell is added!
 
@@ -10,8 +9,10 @@ NOTE: This means that this needs to be rerun whenever a new spell is added!
 // Run with node token-size-script.js from root
 const fs = require("fs");
 
+const fileName = "dfreds-spells-homebrew.db";
+
 // Read the file and make the token changes
-fs.readFile("packs/beyond-spells.db", (err, data) => {
+fs.readFile("packs/" + fileName, (err, data) => {
   if (err) throw err;
 
   let lines = data.toString().split("\n");
@@ -24,13 +25,13 @@ fs.readFile("packs/beyond-spells.db", (err, data) => {
 
     let spellJson = JSON.parse(line);
 
-    if (!spellJson.img.endsWith("mystery-man.svg")) {
+    if (!spellJson.img.endsWith("scroll-unfurled.svg")) {
       newLines += JSON.stringify(spellJson) + "\n";
       continue;
     }
 
     let initialFilePath =
-      "modules/beyond-20-compendiums/images/spell-defaults/";
+      "modules/dfreds-compendiums/images/spell-defaults/";
 
     if (spellJson.data.school === "abj") {
       spellJson.img = initialFilePath + "abjuration.png";
@@ -54,7 +55,7 @@ fs.readFile("packs/beyond-spells.db", (err, data) => {
   }
 
   // Write the new token changes
-  fs.writeFile("beyond-spells.db", newLines, (err) => {
+  fs.writeFile(fileName, newLines, (err) => {
     if (err) throw err;
   });
 });
