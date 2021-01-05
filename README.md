@@ -26,7 +26,7 @@ This is the curated list of homebrews I use.
 
 ### Monsters
 
-* Custom: Apprentice Wizard (Dwarf), Masked Killer
+* Custom: Apprentice Wizard (Dwarf), Masked Killer, Albino Ankheg
 * badooga; Elder Evils - removed those without tokens/images
 * badooga; Warlord Collection - removed those without tokens/images
 * Kelsey Dionne; The Secret of Skyhorn Lighthouse - updated images of tokens
