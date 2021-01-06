@@ -127,6 +127,13 @@
       "module": "dfreds-compendiums"
     },
     {
+      "name": "dfreds-other-features-homebrew",
+      "label": "DFreds Other Features (Homebrew)",
+      "path": "packs/dfreds-other-features-homebrew.db",
+      "entity": "Item",
+      "module": "dfreds-compendiums"
+    },
+    {
       "name": "dfreds-optional-and-variant-rules",
       "label": "DFreds Optional and Variant Rules",
       "path": "packs/dfreds-optional-and-variant-rules.db",
