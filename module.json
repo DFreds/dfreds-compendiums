@@ -8,6 +8,20 @@
   "compatibleCoreVersion": "0.7.9",
   "packs": [
     {
+      "name": "dfreds-dae-and-token-magic-items",
+      "label": "DFreds DAE and TokenMagic Items",
+      "path": "packs/dfreds-dae-and-token-magic-items.db",
+      "entity": "Item",
+      "module": "dfreds-compendiums"
+    },
+    {
+      "name": "dfreds-macros",
+      "label": "DFreds Macros",
+      "path": "packs/dfreds-macros.db",
+      "entity": "Macro",
+      "module": "dfreds-compendiums"
+    },
+    {
       "name": "dfreds-items",
       "label": "DFreds Items",
       "path": "packs/dfreds-items.db",
