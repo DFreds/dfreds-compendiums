@@ -2689,12 +2689,12 @@
         "changes": [
           {
             "key": "flags.midi-qol.disadvantage.attack.rwak",
-            "mode": 5,
+            "mode": 2,
             "value": 1
           },
           {
             "key": "flags.midi-qol.disadvantage.attack.rsak",
-            "mode": 5,
+            "mode": 2,
             "value": 1
           }
         ]
