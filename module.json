@@ -118,6 +118,13 @@
       "path": "packs/dfreds-feats.db",
       "entity": "Item",
       "module": "dfreds-compendiums"
+    },
+    {
+      "name": "dfreds-roll-tables",
+      "label": "DFreds Roll Tables",
+      "path": "packs/dfreds-roll-tables.db",
+      "entity": "RollTable",
+      "module": "dfreds-compendiums"
     }
   ],
   "manifest": "https://raw.githubusercontent.com/DFreds/dfreds-compendiums/master/module.json",
