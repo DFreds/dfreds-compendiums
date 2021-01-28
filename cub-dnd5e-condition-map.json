@@ -2621,6 +2621,51 @@
       "isChanged": false
     },
     {
+      "id": "flanking",
+      "name": "Flanking",
+      "icon": "icons/svg/sword.svg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": {
+        "label": "Flanking",
+        "icon": "icons/svg/sword.svg",
+        "tint": "",
+        "disabled": false,
+        "duration": {
+          "seconds": null,
+          "startTime": null,
+          "rounds": null,
+          "turns": null,
+          "startRound": null,
+          "startTurn": null
+        },
+        "changes": [
+          {
+            "key": "flags.midi-qol.advantage.attack.mwak",
+            "mode": 2,
+            "value": 1
+          },
+          {
+            "key": "flags.midi-qol.advantage.attack.msak",
+            "mode": 2,
+            "value": 1
+          }
+        ]
+      },
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": false,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "referenceTypeIcon": "fas fa-book-open",
+      "isJournalReference": true,
+      "isChanged": false
+    },
+    {
       "id": "flanked",
       "name": "Flanked",
       "icon": "modules/game-icons-net/whitetransparent/encirclement.svg",
@@ -2694,6 +2739,106 @@
           },
           {
             "key": "flags.midi-qol.disadvantage.attack.rsak",
+            "mode": 2,
+            "value": 1
+          }
+        ]
+      },
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": false,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "referenceTypeIcon": "fas fa-book-open",
+      "isJournalReference": true,
+      "isChanged": false
+    },
+    {
+      "id": "encumbered",
+      "name": "Encumbered",
+      "icon": "icons/svg/down.svg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": {
+        "label": "Encumbered",
+        "icon": "icons/svg/down.svg",
+        "tint": "",
+        "disabled": false,
+        "duration": {
+          "seconds": null,
+          "startTime": null,
+          "rounds": null,
+          "turns": null,
+          "startRound": null,
+          "startTurn": null
+        },
+        "changes": [
+          {
+            "key": "data.attributes.movement.walk",
+            "mode": 2,
+            "value": -10
+          }
+        ]
+      },
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "outputChat": false,
+        "markDefeated": false
+      },
+      "isNew": false,
+      "referenceTypeIcon": "fas fa-book-open",
+      "isJournalReference": true,
+      "isChanged": false
+    },
+    {
+      "id": "heavily-encumbered",
+      "name": "Heavily Encumbered",
+      "icon": "icons/svg/downgrade.svg",
+      "referenceType": "journalEntry",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": {
+        "label": "Heavily Encumbered",
+        "icon": "icons/svg/downgrade.svg",
+        "tint": "",
+        "disabled": false,
+        "duration": {
+          "seconds": null,
+          "startTime": null,
+          "rounds": null,
+          "turns": null,
+          "startRound": null,
+          "startTurn": null
+        },
+        "changes": [
+          {
+            "key": "data.attributes.movement.walk",
+            "mode": 2,
+            "value": -20
+          },
+          {
+            "key": "flags.midi-qol.disadvantage.attack.all",
+            "mode": 2,
+            "value": 1
+          },
+          {
+            "key": "flags.midi-qol.disadvantage.ability.save.str",
+            "mode": 2,
+            "value": 1
+          },
+          {
+            "key": "flags.midi-qol.disadvantage.ability.save.dex",
+            "mode": 2,
+            "value": 1
+          },
+          {
+            "key": "flags.midi-qol.disadvantage.ability.save.con",
             "mode": 2,
             "value": 1
           }
