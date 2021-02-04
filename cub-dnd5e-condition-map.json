@@ -26,7 +26,7 @@
         "changes": [
           {
             "key": "flags.midi-qol.disadvantage.attack.all",
-            "mode": 5,
+            "mode": 2,
             "value": 1
           },
           {
@@ -467,7 +467,7 @@
         "changes": [
           {
             "key": "flags.midi-qol.disadvantage.ability.check.all",
-            "mode": 5,
+            "mode": 2,
             "value": 1
           }
         ]
@@ -730,12 +730,12 @@
         "changes": [
           {
             "key": "flags.midi-qol.disadvantage.attack.all",
-            "mode": 5,
+            "mode": 2,
             "value": 1
           },
           {
             "key": "flags.midi-qol.disadvantage.ability.save.all",
-            "mode": 5,
+            "mode": 2,
             "value": 1
           }
         ]
@@ -1509,7 +1509,7 @@
           },
           {
             "key": "flags.midi-qol.grants.disadvantage.attack.all",
-            "mode": 5,
+            "mode": 2,
             "value": 1
           }
         ]
@@ -1647,7 +1647,7 @@
             "value": 1
           },
           {
-            "key": "flags.midi-qol.critical.mwak",
+            "key": "flags.midi-qol.grants.critical.mwak",
             "mode": 2,
             "value": 1
           }
@@ -1906,12 +1906,12 @@
         "changes": [
           {
             "key": "flags.midi-qol.disadvantage.attack.all",
-            "mode": 5,
+            "mode": 2,
             "value": 1
           },
           {
             "key": "flags.midi-qol.disadvantage.ability.check.all",
-            "mode": 5,
+            "mode": 2,
             "value": 1
           }
         ]
@@ -2045,12 +2045,12 @@
           },
           {
             "key": "flags.midi-qol.grants.disadvantage.attack.rwak",
-            "mode": 5,
+            "mode": 2,
             "value": 1
           },
           {
             "key": "flags.midi-qol.grants.disadvantage.attack.rsak",
-            "mode": 5,
+            "mode": 2,
             "value": 1
           }
         ]
@@ -2174,12 +2174,12 @@
         "changes": [
           {
             "key": "flags.midi-qol.disadvantage.ability.save.dex",
-            "mode": 5,
+            "mode": 2,
             "value": 1
           },
           {
             "key": "flags.midi-qol.disadvantage.attack.all",
-            "mode": 5,
+            "mode": 2,
             "value": 1
           },
           {
@@ -2495,12 +2495,12 @@
         },
         "changes": [
           {
-            "key": "flags.midi-qol.critical.mwak",
+            "key": "flags.midi-qol.grants.critical.mwak",
             "mode": 2,
             "value": 1
           },
           {
-            "key": "flags.midi-qol.critical.msak",
+            "key": "flags.midi-qol.grants.critical.msak",
             "mode": 2,
             "value": 1
           },
